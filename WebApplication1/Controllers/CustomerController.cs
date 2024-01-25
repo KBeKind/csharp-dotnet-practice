@@ -1,121 +1,96 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Models;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using WebApplication1.Data;
 
 namespace WebApplication1.Controllers
 {
-    public class CustomerController : Controller
-    {
-        public static List<Customer> customers = new List<Customer>()
-        {
-            new Customer() { Id = 1, Name="Duder", Amount= 12000}
-            , new Customer() { Id = 2, Name="Dudette", Amount= 12000}
-        };
+	public class CustomerController : Controller
+	{
 
-        public IActionResult Index()
-        {
-            ViewBag.Message = "Customer Management System";
-            ViewBag.CustomerCount = customers.Count();
-            ViewBag.Customers = customers;
-            return View();
-        }
+		private readonly ApplicationDbContext _context;
 
-
-        public IActionResult Details()
-        {
-
-            ViewData["Message"] = "Customer Details Message";
-            ViewData["CustomerCount"] = customers.Count();
-            ViewData["CustomerList"] = customers;
-
-            ViewBag.Customers = customers;
-
-
-            return View();
-        }
-
-        public IActionResult Message()
-        {
-            return View();
-        }
+		public CustomerController()
+		{
+			_context = new ApplicationDbContext();
+		}
 
 
 
-        public IActionResult Method()
-        {
-            TempData["Message"] = "Method 1 Message";
-            //TempData["CustomerCount"] = customers.Count();
-            //TempData["CustomerList"] = customers;
+		// GET: CustomerController
+		public ActionResult Index()
+		{
+			var customers = _context.Customers.ToList();
+			return View(customers);
+		}
 
 
-            return View();
-        }
-
-
-        public IActionResult MethodTwo()
-        {
-
-            if (TempData["Message"] == null)
-            {
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                TempData["Message"] = TempData["Message"];
-             
-                //TempData.Clear(); // clear the tempdata after use. 
-                //                  // this is to prevent the same data from being used again. 
-             
-                return View();
-            }
-          
-        }
-
-        //LOGIN USING SESSION
-        public IActionResult Login()
-        {
-
-            HttpContext.Session.SetString("username", "Duder");
-
-            return RedirectToAction("Success");
-         }
-
-
-        public IActionResult Success()
-        {
-            if (HttpContext.Session.GetString("username") != null)
-            {
-                ViewBag.Username = HttpContext.Session.GetString("username");
-                return View();
-
-            }
-
-            ViewBag.Message = "Unsuccessful Login";
-            return View();
-
-        }
-
-
-        public IActionResult Logout()
-        {
-            HttpContext.Session.Remove("username");
-            return RedirectToAction("Index");
-        }
-
-
-
-        //  querytest?name=Duderino  IF YOU WANT TO USE THE QUERY STRING PARAM
-        public IActionResult QueryTest()
-        {
-            String name = "Duderman";
-            if(!String.IsNullOrEmpty(HttpContext.Request.Query["name"]))
-            {
-                name = HttpContext.Request.Query["name"];
-                
-            }
-
-			ViewBag.Name = name;
+		// GET: CustomerController/Details/5
+		public ActionResult Details(int id)
+		{
 			return View();
 		}
 
-    }
+		// GET: CustomerController/Create
+		public ActionResult Create()
+		{
+			return View();
+		}
+
+		// POST: CustomerController/Create
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public ActionResult Create(IFormCollection collection)
+		{
+			try
+			{
+				return RedirectToAction(nameof(Index));
+			}
+			catch
+			{
+				return View();
+			}
+		}
+
+		// GET: CustomerController/Edit/5
+		public ActionResult Edit(int id)
+		{
+			return View();
+		}
+
+		// POST: CustomerController/Edit/5
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public ActionResult Edit(int id, IFormCollection collection)
+		{
+			try
+			{
+				return RedirectToAction(nameof(Index));
+			}
+			catch
+			{
+				return View();
+			}
+		}
+
+		// GET: CustomerController/Delete/5
+		public ActionResult Delete(int id)
+		{
+			return View();
+		}
+
+		// POST: CustomerController/Delete/5
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public ActionResult Delete(int id, IFormCollection collection)
+		{
+			try
+			{
+				return RedirectToAction(nameof(Index));
+			}
+			catch
+			{
+				return View();
+			}
+		}
+	}
 }
