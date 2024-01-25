@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Method</title>
+</head>
+<body>
+
+    METHOD
+     @{
+    TempData.Keep("Message");
+    }
+    
+    <p> @TempData["Message"]</p>
+
+    <a asp-action="MethodTwo" asp-controller="Customer">Go to Method2</a>
+
+</body>
+</html>
