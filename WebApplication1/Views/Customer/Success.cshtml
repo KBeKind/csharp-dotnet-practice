@@ -1,0 +1,26 @@
+﻿@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Success</title>
+</head>
+<body>
+
+	@if (ViewBag.username != null)
+	{
+		<h3>Welcome, @ViewBag.Username!</h3>
+
+		<a asp-controller="Customer" asp-action="Logout">Logout</a>
+	}
+	else
+	{
+		<h3>@ViewBag.Message</h3>
+	}
+
+</body>
+</html>
