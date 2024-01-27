@@ -26,32 +26,60 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\kyler\Desktop\DOTNET-PRACTICE\WebApplication1\WebApplication1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Customer/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGV0YWlscy5jc2h0bWw=
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Account/GetAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxHZXRBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Account/LoginPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpblBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Account/LoginSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpblN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Account/StronglyTypedLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTdHJvbmdseVR5cGVkTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Account/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Account/UserDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVc2VyRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Account/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Account/WeaklyTypedLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxXZWFrbHlUeXBlZExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Customers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Customers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Customers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Customers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Customer/Message.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcTWVzc2FnZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Customer/Method.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcTWV0aG9kLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Customer/MethodTwo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcTWV0aG9kVHdvLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Customer/QueryTest.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcUXVlcnlUZXN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Customer/Success.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Home/Index.cshtml]
@@ -66,12 +94,60 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/OldCustomer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2xkQ3VzdG9tZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/OldCustomer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2xkQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/OldCustomer/Message.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2xkQ3VzdG9tZXJcTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/OldCustomer/Method.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2xkQ3VzdG9tZXJcTWV0aG9kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/OldCustomer/MethodTwo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2xkQ3VzdG9tZXJcTWV0aG9kVHdvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/OldCustomer/QueryTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2xkQ3VzdG9tZXJcUXVlcnlUZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/OldCustomer/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2xkQ3VzdG9tZXJcU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kyler/Desktop/DOTNET-PRACTICE/WebApplication1/WebApplication1/Views/_ViewImports.cshtml]

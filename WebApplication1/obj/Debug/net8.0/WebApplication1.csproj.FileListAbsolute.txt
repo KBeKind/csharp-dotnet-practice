@@ -235,3 +235,7 @@ C:\Users\kyler\Desktop\DOTNET-PRACTICE\WebApplication1\WebApplication1\bin\Debug
 C:\Users\kyler\Desktop\DOTNET-PRACTICE\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
 C:\Users\kyler\Desktop\DOTNET-PRACTICE\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.CopyComplete
 C:\Users\kyler\Desktop\DOTNET-PRACTICE\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json
+C:\Users\kyler\Desktop\DOTNET-PRACTICE\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kyler\Desktop\DOTNET-PRACTICE\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kyler\Desktop\DOTNET-PRACTICE\WebApplication1\WebApplication1\bin\Debug\net8.0\Npgsql.dll
+C:\Users\kyler\Desktop\DOTNET-PRACTICE\WebApplication1\WebApplication1\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
