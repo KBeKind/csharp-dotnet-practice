@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MQfryvHgIuFOjq1kVeu1FqFXa2Uyra13Fapq59TLiG/eDbrWYizwuHyUuC5ZPJunCL9Jr9q9U9wWZpCDP6uWYw==",
+  "dgSpecHash": "5cOhNThwE8Z/C79qpFVJbUumJ4p1eresfc/OadfGSRHsYdGJQ+x1busUE27Fh90ljoU7kwF3+RysxT+XunHJrQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\kyler\\Desktop\\DOTNET-PRACTICE\\WebApplication1\\coreProductMicroserviceProject\\coreProductMicroserviceProject.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\kyler\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\kyler\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\kyler\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\kyler\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\kyler\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\kyler\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
     "C:\\Users\\kyler\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
