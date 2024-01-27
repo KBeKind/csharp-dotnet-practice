@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebAppli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{F78E6A19-C88B-4765-B78A-2C6105173662}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebAPIProject", "AspNetCoreWebAPIProject\AspNetCoreWebAPIProject.csproj", "{26ED0370-83D7-4947-8773-4AE10D0FED75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreWebAPIProject", "AspNetCoreWebAPIProject\AspNetCoreWebAPIProject.csproj", "{26ED0370-83D7-4947-8773-4AE10D0FED75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebAPIProjectClient", "AspNetCoreWebAPIProjectClient\AspNetCoreWebAPIProjectClient.csproj", "{16707A09-DA63-4D6E-9C21-B63FBECAE252}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreWebAPIProjectClient", "AspNetCoreWebAPIProjectClient\AspNetCoreWebAPIProjectClient.csproj", "{16707A09-DA63-4D6E-9C21-B63FBECAE252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coreProductMicroserviceProject", "coreProductMicroserviceProject\coreProductMicroserviceProject.csproj", "{A144FC78-ECD2-4F8C-9628-8BA34001AB8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{16707A09-DA63-4D6E-9C21-B63FBECAE252}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16707A09-DA63-4D6E-9C21-B63FBECAE252}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16707A09-DA63-4D6E-9C21-B63FBECAE252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A144FC78-ECD2-4F8C-9628-8BA34001AB8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A144FC78-ECD2-4F8C-9628-8BA34001AB8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A144FC78-ECD2-4F8C-9628-8BA34001AB8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A144FC78-ECD2-4F8C-9628-8BA34001AB8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
